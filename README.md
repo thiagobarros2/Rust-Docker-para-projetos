@@ -2,5 +2,5 @@
 
 
 - ``docker-compose run --rm rust``
-- ``cd projetos``
+- ``cd /var/www``
 - ``cargo new nome-projeto``
