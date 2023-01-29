@@ -4,6 +4,6 @@ services:
     image: "rust:1.67"
     restart: unless-stopped
     volumes: 
-      - ./projetos:/projetos
+      - ./:/var/www
     environment:
       - USER=root
