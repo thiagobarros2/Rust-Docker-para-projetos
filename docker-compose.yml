@@ -1,0 +1,8 @@
+version: "3.8"
+services:
+  rust:
+    image: "rust:1.67"
+    volumes: 
+      - ./projetos:/projetos
+    environment:
+      - USER=root
