@@ -2,6 +2,7 @@ version: "3.8"
 services:
   rust:
     image: "rust:1.67"
+    restart: unless-stopped
     volumes: 
       - ./projetos:/projetos
     environment:
