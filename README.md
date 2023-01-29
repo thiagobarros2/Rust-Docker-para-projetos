@@ -6,4 +6,4 @@
 - ``cd /var/www``
 - ``cargo new nome-projeto``
 
-Após desenvolver criar um novo projeto, removê-lo para um repositório próprio.
+Após criar um novo projeto, removê-lo para um repositório próprio.
