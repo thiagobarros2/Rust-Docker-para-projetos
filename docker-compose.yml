@@ -1,8 +1,9 @@
 version: "3.8"
 services:
   rust:
+    container_name: rust
     image: "rust:1.67"
-    restart: unless-stopped
+    command: tail -F anything
     volumes: 
       - ./:/var/www
     environment:
